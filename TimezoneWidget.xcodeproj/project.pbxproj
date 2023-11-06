@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4606E8CE2AF8D56300039BA2 /* TimezoneWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606E8CD2AF8D56300039BA2 /* TimezoneWidgetApp.swift */; };
+		4606E8D02AF8D56300039BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606E8CF2AF8D56300039BA2 /* ContentView.swift */; };
+		4606E8D22AF8D56600039BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4606E8D12AF8D56600039BA2 /* Assets.xcassets */; };
+		4606E8D52AF8D56600039BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4606E8D42AF8D56600039BA2 /* Preview Assets.xcassets */; };
+		4606E8E22AF8D6E100039BA2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4606E8E12AF8D6E100039BA2 /* WidgetKit.framework */; };
+		4606E8E42AF8D6E100039BA2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4606E8E32AF8D6E100039BA2 /* SwiftUI.framework */; };
+		4606E8E72AF8D6E100039BA2 /* TimeZoneWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606E8E62AF8D6E100039BA2 /* TimeZoneWidgetBundle.swift */; };
+		4606E8E92AF8D6E100039BA2 /* TimeZoneWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606E8E82AF8D6E100039BA2 /* TimeZoneWidget.swift */; };
+		4606E8EB2AF8D6E500039BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4606E8EA2AF8D6E500039BA2 /* Assets.xcassets */; };
+		4606E8EF2AF8D6E500039BA2 /* TimeZoneWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4606E8DF2AF8D6E100039BA2 /* TimeZoneWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4606E8ED2AF8D6E500039BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4606E8C22AF8D56300039BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4606E8DE2AF8D6E100039BA2;
+			remoteInfo = TimeZoneWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4606E8F32AF8D6E600039BA2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4606E8EF2AF8D6E500039BA2 /* TimeZoneWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4606E8CA2AF8D56300039BA2 /* TimezoneWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimezoneWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4606E8CD2AF8D56300039BA2 /* TimezoneWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneWidgetApp.swift; sourceTree = "<group>"; };
+		4606E8CF2AF8D56300039BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4606E8D12AF8D56600039BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4606E8D42AF8D56600039BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4606E8DF2AF8D6E100039BA2 /* TimeZoneWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeZoneWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4606E8E12AF8D6E100039BA2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4606E8E32AF8D6E100039BA2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4606E8E62AF8D6E100039BA2 /* TimeZoneWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneWidgetBundle.swift; sourceTree = "<group>"; };
+		4606E8E82AF8D6E100039BA2 /* TimeZoneWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneWidget.swift; sourceTree = "<group>"; };
+		4606E8EA2AF8D6E500039BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4606E8EC2AF8D6E500039BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4606E8C72AF8D56300039BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4606E8DC2AF8D6E100039BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606E8E42AF8D6E100039BA2 /* SwiftUI.framework in Frameworks */,
+				4606E8E22AF8D6E100039BA2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4606E8C12AF8D56300039BA2 = {
+			isa = PBXGroup;
+			children = (
+				4606E8CC2AF8D56300039BA2 /* TimezoneWidget */,
+				4606E8E52AF8D6E100039BA2 /* TimeZoneWidget */,
+				4606E8E02AF8D6E100039BA2 /* Frameworks */,
+				4606E8CB2AF8D56300039BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4606E8CB2AF8D56300039BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4606E8CA2AF8D56300039BA2 /* TimezoneWidget.app */,
+				4606E8DF2AF8D6E100039BA2 /* TimeZoneWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4606E8CC2AF8D56300039BA2 /* TimezoneWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4606E8CD2AF8D56300039BA2 /* TimezoneWidgetApp.swift */,
+				4606E8CF2AF8D56300039BA2 /* ContentView.swift */,
+				4606E8D12AF8D56600039BA2 /* Assets.xcassets */,
+				4606E8D32AF8D56600039BA2 /* Preview Content */,
+			);
+			path = TimezoneWidget;
+			sourceTree = "<group>";
+		};
+		4606E8D32AF8D56600039BA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4606E8D42AF8D56600039BA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4606E8E02AF8D6E100039BA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4606E8E12AF8D6E100039BA2 /* WidgetKit.framework */,
+				4606E8E32AF8D6E100039BA2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4606E8E52AF8D6E100039BA2 /* TimeZoneWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4606E8E62AF8D6E100039BA2 /* TimeZoneWidgetBundle.swift */,
+				4606E8E82AF8D6E100039BA2 /* TimeZoneWidget.swift */,
+				4606E8EA2AF8D6E500039BA2 /* Assets.xcassets */,
+				4606E8EC2AF8D6E500039BA2 /* Info.plist */,
+			);
+			path = TimeZoneWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4606E8C92AF8D56300039BA2 /* TimezoneWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4606E8D82AF8D56600039BA2 /* Build configuration list for PBXNativeTarget "TimezoneWidget" */;
+			buildPhases = (
+				4606E8C62AF8D56300039BA2 /* Sources */,
+				4606E8C72AF8D56300039BA2 /* Frameworks */,
+				4606E8C82AF8D56300039BA2 /* Resources */,
+				4606E8F32AF8D6E600039BA2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4606E8EE2AF8D6E500039BA2 /* PBXTargetDependency */,
+			);
+			name = TimezoneWidget;
+			productName = TimezoneWidget;
+			productReference = 4606E8CA2AF8D56300039BA2 /* TimezoneWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4606E8DE2AF8D6E100039BA2 /* TimeZoneWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4606E8F02AF8D6E600039BA2 /* Build configuration list for PBXNativeTarget "TimeZoneWidgetExtension" */;
+			buildPhases = (
+				4606E8DB2AF8D6E100039BA2 /* Sources */,
+				4606E8DC2AF8D6E100039BA2 /* Frameworks */,
+				4606E8DD2AF8D6E100039BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeZoneWidgetExtension;
+			productName = TimeZoneWidgetExtension;
+			productReference = 4606E8DF2AF8D6E100039BA2 /* TimeZoneWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4606E8C22AF8D56300039BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4606E8C92AF8D56300039BA2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4606E8DE2AF8D6E100039BA2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4606E8C52AF8D56300039BA2 /* Build configuration list for PBXProject "TimezoneWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4606E8C12AF8D56300039BA2;
+			productRefGroup = 4606E8CB2AF8D56300039BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4606E8C92AF8D56300039BA2 /* TimezoneWidget */,
+				4606E8DE2AF8D6E100039BA2 /* TimeZoneWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4606E8C82AF8D56300039BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606E8D52AF8D56600039BA2 /* Preview Assets.xcassets in Resources */,
+				4606E8D22AF8D56600039BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4606E8DD2AF8D6E100039BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606E8EB2AF8D6E500039BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4606E8C62AF8D56300039BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606E8D02AF8D56300039BA2 /* ContentView.swift in Sources */,
+				4606E8CE2AF8D56300039BA2 /* TimezoneWidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4606E8DB2AF8D6E100039BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606E8E92AF8D6E100039BA2 /* TimeZoneWidget.swift in Sources */,
+				4606E8E72AF8D6E100039BA2 /* TimeZoneWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4606E8EE2AF8D6E500039BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4606E8DE2AF8D6E100039BA2 /* TimeZoneWidgetExtension */;
+			targetProxy = 4606E8ED2AF8D6E500039BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4606E8D62AF8D56600039BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4606E8D72AF8D56600039BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4606E8D92AF8D56600039BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimezoneWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzymek.TimezoneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4606E8DA2AF8D56600039BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimezoneWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzymek.TimezoneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4606E8F12AF8D6E600039BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeZoneWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeZoneWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzymek.TimezoneWidget.TimeZoneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4606E8F22AF8D6E600039BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeZoneWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeZoneWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzymek.TimezoneWidget.TimeZoneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4606E8C52AF8D56300039BA2 /* Build configuration list for PBXProject "TimezoneWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4606E8D62AF8D56600039BA2 /* Debug */,
+				4606E8D72AF8D56600039BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4606E8D82AF8D56600039BA2 /* Build configuration list for PBXNativeTarget "TimezoneWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4606E8D92AF8D56600039BA2 /* Debug */,
+				4606E8DA2AF8D56600039BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4606E8F02AF8D6E600039BA2 /* Build configuration list for PBXNativeTarget "TimeZoneWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4606E8F12AF8D6E600039BA2 /* Debug */,
+				4606E8F22AF8D6E600039BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4606E8C22AF8D56300039BA2 /* Project object */;
+}
